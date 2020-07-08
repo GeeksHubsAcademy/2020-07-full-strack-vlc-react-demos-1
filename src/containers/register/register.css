@@ -1,0 +1,24 @@
+
+.containerRegister {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.regLeft {
+    width: 20em;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputReg {
+    margin-top: 2em;
+    width: 15em;
+}
+
+.inputRegError {
+    margin-top: 2em;
+    width: 15em;
+    border-color: red;
+}

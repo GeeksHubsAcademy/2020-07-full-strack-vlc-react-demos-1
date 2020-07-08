@@ -1,0 +1,13 @@
+{
+    "idleHeartbeats": 4,
+    "navigatingHeartbeats": 6,
+    "totalCodingHeartbeats": 25,
+    "languageHeartbeats": {
+        "javascriptreact": 24,
+        "jsonc": 1
+    },
+    "fileHeartbeats": {
+        "src/containers/register/register.jsx": 24,
+        "c:\\Users\\david\\AppData\\Roaming\\Code\\User\\settings.json": 1
+    }
+}
