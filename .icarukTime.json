@@ -1,19 +1,21 @@
 {
-    "idleHeartbeats": 567,
-    "navigatingHeartbeats": 294,
-    "totalCodingHeartbeats": 1444,
+    "idleHeartbeats": 773,
+    "navigatingHeartbeats": 380,
+    "totalCodingHeartbeats": 1797,
     "languageHeartbeats": {
-        "javascriptreact": 1429,
+        "javascriptreact": 1772,
         "jsonc": 1,
-        "css": 14
+        "css": 14,
+        "plaintext": 10
     },
     "fileHeartbeats": {
-        "src/containers/register/register.jsx": 634,
+        "src/containers/register/register.jsx": 644,
         "c:\\Users\\david\\AppData\\Roaming\\Code\\User\\settings.json": 1,
         "src/App.jsx": 290,
-        "src/containers/login/login.jsx": 86,
-        "src/components/header/header.jsx": 359,
+        "src/containers/login/login.jsx": 128,
+        "src/components/header/header.jsx": 600,
         "src/components/header/header.css": 14,
-        "src/components/footer/footer.jsx": 60
+        "src/components/footer/footer.jsx": 110,
+        "d:\\GeeksHubs\\teaching\\katas\\react\\estadoswork\\src\\containers\\register\\register.jsx.git": 10
     }
 }

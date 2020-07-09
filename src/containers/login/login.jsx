@@ -1,6 +1,7 @@
 
 import React from "react";
 
+import './login.css';
 
 class Login extends React.Component {
     
@@ -17,7 +18,7 @@ class Login extends React.Component {
 
 
         return(
-            <div>
+            <div className="comp-Login">
                 Soy el componente Login
             </div>
         );

@@ -1,6 +1,8 @@
 
 import React from "react";
 
+import './footer.css';
+
 
 class Footer extends React.Component {
     
@@ -11,7 +13,7 @@ class Footer extends React.Component {
     
     render() {
         return(
-            <div>
+            <div className="comp-Footer">
                 Soy el componente Footer
             </div>
         );
