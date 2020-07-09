@@ -1,13 +1,19 @@
 {
-    "idleHeartbeats": 4,
-    "navigatingHeartbeats": 6,
-    "totalCodingHeartbeats": 25,
+    "idleHeartbeats": 567,
+    "navigatingHeartbeats": 294,
+    "totalCodingHeartbeats": 1444,
     "languageHeartbeats": {
-        "javascriptreact": 24,
-        "jsonc": 1
+        "javascriptreact": 1429,
+        "jsonc": 1,
+        "css": 14
     },
     "fileHeartbeats": {
-        "src/containers/register/register.jsx": 24,
-        "c:\\Users\\david\\AppData\\Roaming\\Code\\User\\settings.json": 1
+        "src/containers/register/register.jsx": 634,
+        "c:\\Users\\david\\AppData\\Roaming\\Code\\User\\settings.json": 1,
+        "src/App.jsx": 290,
+        "src/containers/login/login.jsx": 86,
+        "src/components/header/header.jsx": 359,
+        "src/components/header/header.css": 14,
+        "src/components/footer/footer.jsx": 60
     }
 }

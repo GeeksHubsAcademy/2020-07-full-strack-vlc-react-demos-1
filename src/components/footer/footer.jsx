@@ -2,23 +2,17 @@
 import React from "react";
 
 
-class Login extends React.Component {
+class Footer extends React.Component {
     
     // constructor (props) {
     //     super(props);
-
-        
         
     // };
-
-    
     
     render() {
-
-
         return(
             <div>
-                Soy el componente Login
+                Soy el componente Footer
             </div>
         );
     };
@@ -27,4 +21,4 @@ class Login extends React.Component {
 };
 
 
-export default Login;
+export default Footer;
