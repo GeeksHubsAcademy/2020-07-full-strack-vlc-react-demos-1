@@ -22,3 +22,8 @@
     width: 15em;
     border-color: red;
 }
+
+.spinner {
+    height: 2em;
+    width: 2em;
+}

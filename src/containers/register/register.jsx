@@ -1,6 +1,8 @@
 
 import React from "react";
 
+import axios from 'axios';
+
 import './register.css';
 
 
@@ -14,6 +16,8 @@ class Register extends React.Component {
             email: "",
             password: "",
             password2: "",
+            address: "",
+            phone: "",
             msgError: "",
 
             isRegistered: false
@@ -30,7 +34,7 @@ class Register extends React.Component {
                             
     }
 
-    createRegister (){
+    async createRegister (){
         
         //1 control de errores
         
@@ -44,10 +48,23 @@ class Register extends React.Component {
             return;
         }
         
-        //2 aqui ya hemos comprobado todos los errores y procedemos a enviar al back
-        
+        //2 aqui ya hemos comprobado todos los errores y procedemos a comunicar con el back
+
+        try {
 
         //3 comunicación con el back y el back nos responde positivamente
+
+        let body = {
+            username: this.state.username.trim(),
+            email: this.state.email.trim(),
+            password: this.state.password,
+            address: this.state.address,
+            phone: this.state.phone.trim(),
+        };
+
+        // await axios.post( "http://localhost:3000/elfinaldelendpoint", body);
+
+        //Ha ido todo bien y redireccionamos
 
         this.setState({isRegistered: true}, () => {
             //4 Redirección ...saliendo de aqui
@@ -57,9 +74,17 @@ class Register extends React.Component {
                 
             }, 2000);
         });
-        
-        
-        
+
+        } catch (err){
+            if(err.response) {
+                if(err.response.data) {
+                    this.muestraError("Ha ocurrido un error durante el registro.");
+                }
+                return;
+            }
+            console.log(err);
+        }
+            
     }
 
     //componentDidMount - el componente se ha montado
@@ -80,7 +105,9 @@ class Register extends React.Component {
         if(isRegistered){
             return(
                 <div>
-                    TE HAS REGISTRADO {this.state.username}
+                    {/* TE HAS REGISTRADO {this.state.username} */}
+                    <img className="spinner" src="img/91.gif" alt=""/>
+                    
                 </div>
             );
         }else{

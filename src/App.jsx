@@ -6,6 +6,7 @@ import Register from './containers/register/register.jsx';
 import Login from './containers/login/login.jsx';
 import Header from './components/header/header.jsx';
 import Footer from './components/footer/footer.jsx';
+import Profile from './containers/userProfile/userProfile.jsx';
 
 //Imports de CSS
 import './App.css';
@@ -21,6 +22,7 @@ export default function App() {
 					{/* <Route path="/" exact component={Counter} /> */}
 					<Route path="/register" exact component={Register} />
 					<Route path="/login" exact component={Login} />
+					<Route path="/profile" exact component={Profile} />
 				</Switch>
 
 				<Footer />
